@@ -1,0 +1,16 @@
+# Create requirements.txt with common dependencies for UrbanFlowAI
+@"
+torch
+torchvision
+torchaudio
+tensorflow
+dgl
+torch-geometric
+ultralytics
+sumo
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+"@ | Set-Content -Path .\requirements.txt
